@@ -1,7 +1,6 @@
 OBJETIVO
 Desenvolver um sistema web de gerenciamento de funcionários utilizando Programação Orientada a Objetos (POO), arquitetura MVC (Model, View e Controller), formulários HTML, métodos HTTP GET e POST, sessões PHP e banco de dados MySQL.
 
-
 1. ESTRUTURA MVC
 Organize o projeto em pastas separadas:
 - models/ — Classes e regras de negócio.
