@@ -14,7 +14,10 @@
                 $salario = $_POST["salario"];
                 $tipo = $_POST["tipo"];
 
-                if (empty($nome))
+                if (empty($nome) || empty($email) || $salario === "" || empty($tipo)) {
+
+                throw new Exception("Por favor, preencher todos os campos.")
+                }
 
             }
         }
